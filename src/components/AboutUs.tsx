@@ -64,7 +64,7 @@ export default function AboutUs() {
                   Our Chapter
                 </h3>
                 <p className="text-gray-300 leading-relaxed text-justify">
-                  The IEEE Computer Society student branch chapter of SLTC which was established on 13th December 2020 is dedicated to empowering the students with interest in Computer Science and Information Technology. Through active participation in events, initiatives and volunteer activities the chapter provides valuable opportunities to build the technical knowledge, leadership capabilities and professional skills. Over time, the chapter has organized numerous programs that strongly support innovation, collaboration and continuous learning among its members.
+                  The IEEE Computer Society student branch chapter of SLTC, which was established on 13th December 2020, is dedicated to empowering the students with an interest in Computer Science and Information Technology. Through active participation in events, initiatives and volunteer activities, the chapter provides valuable opportunities to build the technical knowledge, leadership capabilities and professional skills. Over time, the chapter has organized numerous programs that strongly support innovation, collaboration and continuous learning among its members.
                 </p>
 
                 {/* Awards Section */}

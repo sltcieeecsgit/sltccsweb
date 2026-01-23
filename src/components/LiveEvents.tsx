@@ -9,7 +9,8 @@ const liveEvents = [
   {
     id: 1,
     title: 'Codemania v6.0',
-    description: `Codemania is an exciting coding competition organized by SLTC’s IEEE Student Branch, where students compete in teams, solve challenging algorithmic problems, enhance programming skills, win prizes, and foster a collaborative, tech-focused community.`,
+    description: `Codemania is an exciting coding competition organized by IEEE Computer Society SBC of SLTC, where students compete in teams, solve challenging algorithmic problems, enhance programming skills, win prizes, and foster a collaborative, tech-focused community together annually.
+`,
     image: codemaniasoonImg,
     link: 'https://codemania-v5.vercel.app/',
   },
@@ -17,7 +18,7 @@ const liveEvents = [
     id: 2,
     title: 'CloudSpace v2.0',
     description:
-      `CloudSpace is a cloud computing event organized by SLTC’s IEEE Student Branch, where students explore multiple cloud platforms including AWS, Microsoft Azure, Google Cloud, and others, gaining practical experience, enhancing skills, and building industry-relevant knowledge.`,
+      `CloudSpace is a cloud computing event organized by IEEE Computer Society SBC of SLTC, where students explore multiple cloud platforms including AWS, Microsoft Azure, Google Cloud, and others, gaining practical experience, enhancing skills, and building industry-relevant knowledge.`,
     image: cloudspacesoonImg,
     link: 'https://cloudspacev1.online/',
   },

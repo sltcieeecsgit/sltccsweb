@@ -12,7 +12,7 @@ const flagshipEvents = [
     title: 'Codemania',
     category: 'Annual Hackathon',
     description:
-      'Codemania is an exciting coding competition organized by SLTC’s IEEE Student Branch, where students compete in teams, solve challenging algorithmic problems, enhance programming skills, win prizes, and foster a collaborative, tech focused community.',
+      'Codemania is an exciting coding competition organized by IEEE Computer Society SBC of SLTC, where students compete in teams, solve challenging algorithmic problems, enhance programming skills, win prizes, and foster a collaborative, tech focused community.',
     image: codemaniaImg,
     link: 'https://codemania-v5.vercel.app/',
   },
@@ -21,7 +21,7 @@ const flagshipEvents = [
     title: 'CoudSpace',
     category: 'Cloud Workshop Series',
     description:
-      'CloudSpace is a cloud computing event by SLTC’s IEEE Student Branch, where students explore various cloud platforms like AWS, Microsoft Azure, Google Cloud, gaining hands-on experience, improving skills, and building industry-relevant knowledge.',
+      'CloudSpace is a cloud computing event by IEEE Computer Society SBC of SLTC, where students explore various cloud platforms like AWS, Microsoft Azure, and Google Cloud, gaining hands-on experience, improving skills, and building industry-relevant knowledge.',
     image: cloudspacevvImg,
     link: 'https://cloudspacev1.online/',
   },
@@ -30,7 +30,7 @@ const flagshipEvents = [
     title: 'IdeaniX',
     category: 'Annual Ideathon',
     description:
-      'Ideanix is an innovation and entrepreneurship event by SLTC’s IEEE Student Branch that helps students turn creative tech ideas into real projects or startup concepts through guidance, ideathons, mentorship, and development challenges.',
+      'Ideanix is an innovation and entrepreneurship event by IEEE Computer Society SBC of SLTC that helps students turn creative tech ideas into real projects or startup concepts through guidance, ideathons, mentorship, and development challenges.',
     image: idianixImg,
     link: 'https://ideanix.vercel.app/',
   },

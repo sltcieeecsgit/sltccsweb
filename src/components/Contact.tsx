@@ -59,7 +59,7 @@ export default function Contact() {
                   <div>
                     <h4 className="font-bold text-white mb-1">Address</h4>
                     <p className="text-gray-400">
-                      Sri Lanka Technological Campus (SLTC)<br />
+                      Sri Lanka Technology Campus (SLTC)<br />
                       Padukka, Sri Lanka
                     </p>
                   </div>
