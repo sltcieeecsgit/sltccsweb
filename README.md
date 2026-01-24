@@ -46,4 +46,26 @@ The website is developed using **React** with **Vite** and deployed on **Firebas
 ├── tsconfig.app.json
 ├── tsconfig.node.json
 └── vite.config.ts
+```
+## 🎯 Purpose of the Website
+
+- Official web presence of **IEEE Computer Society SLTC**
+- Promote events, workshops, and initiatives
+- Share announcements and student resources
+- Support student engagement and community growth
+
+
+## 🤝 Contributions
+
+Contributions are welcome and will be reviewed by the  
+**IEEE Computer Society Student Branch Chapter of SLTC**.
+
+All contributions must follow IEEE standards and branding guidelines.
+
+---
+
+## 📜 License
+
+Maintained by the **IEEE Computer Society Student Branch Chapter of SLTC**.  
+All rights reserved. Designed & Developed by : [Binara Wijewickrama]([https://example.com](https://lk.linkedin.com/in/binara-wijewickrama))
 
