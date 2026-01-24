@@ -26,7 +26,7 @@ The website is developed using **React** with **Vite** and deployed on **Firebas
 ---
 
 ## 📁 Project Structure
-`
+```txt
 ├── .firebase/
 ├── src/
 │   ├── assets/
@@ -46,4 +46,4 @@ The website is developed using **React** with **Vite** and deployed on **Firebas
 ├── tsconfig.app.json
 ├── tsconfig.node.json
 └── vite.config.ts
-` 
+
