@@ -26,12 +26,13 @@ The website is developed using **React** with **Vite** and deployed on **Firebas
 ---
 
 ## 📁 Project Structure
+`
 ├── .firebase/
 ├── src/
-│ ├── assets/
-│ ├── components/
-│ ├── pages/
-│ └── main.tsx
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   └── main.tsx
 ├── .gitignore
 ├── README.md
 ├── eslint.config.js
@@ -45,3 +46,4 @@ The website is developed using **React** with **Vite** and deployed on **Firebas
 ├── tsconfig.app.json
 ├── tsconfig.node.json
 └── vite.config.ts
+` 
