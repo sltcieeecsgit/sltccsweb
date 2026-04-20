@@ -38,7 +38,7 @@ export default function Navigation() {
             />
           </div>
 
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
               <a
                 key={link.href}
@@ -49,6 +49,13 @@ export default function Navigation() {
                 {link.label}
               </a>
             ))}
+            <a
+              href="#membership"
+              onClick={(e) => scrollToSection(e, '#membership')}
+              className="px-6 py-2.5 text-base font-bold bg-gradient-to-r from-goldcs to-goldcsdark text-white rounded-full transition-all duration-300 hover:scale-105"
+            >
+              Onboard
+            </a>
           </div>
 
           <button
@@ -73,6 +80,13 @@ export default function Navigation() {
                 {link.label}
               </a>
             ))}
+            <a
+              href="#membership"
+              onClick={(e) => scrollToSection(e, '#membership')}
+              className="block text-center mt-4 bg-gradient-to-r from-goldcs to-goldcsdark text-white hover:brightness-110 px-3 py-2 rounded-lg font-bold transition-all duration-300"
+            >
+              Become a Member
+            </a>
           </div>
         </div>
       )}

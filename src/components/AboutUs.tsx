@@ -48,7 +48,7 @@ export default function AboutUs() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             {isLoading ? (
-              <div className="glass-card p-8 rounded-2xl space-y-4">
+              <div className="space-y-4">
                 <Skeleton className="h-8 w-1/3" />
                 <div className="space-y-2">
                   <Skeleton className="h-4 w-full" />
@@ -59,9 +59,9 @@ export default function AboutUs() {
                 </div>
               </div>
             ) : (
-              <div className="glass-card p-8 rounded-2xl hover:border-goldcs/30 transition-colors duration-300">
+              <div className="transition-colors duration-300">
                 <h3 className="text-2xl font-bold text-goldcs mb-4">
-                  Our Chapter
+                  Who We Are
                 </h3>
                 <p className="text-gray-300 leading-relaxed text-justify">
                   The IEEE Computer Society student branch chapter of SLTC, which was established on 13th December 2020, is dedicated to empowering the students with an interest in Computer Science and Information Technology. Through active participation in events, initiatives and volunteer activities, the chapter provides valuable opportunities to build the technical knowledge, leadership capabilities and professional skills. Over time, the chapter has organized numerous programs that strongly support innovation, collaboration and continuous learning among its members.
@@ -71,7 +71,7 @@ export default function AboutUs() {
                 <div className="mt-8">
                   <h4 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
                     <Award className="w-5 h-5 text-goldcs" />
-                    Major Awards
+                    Our Achievements
                   </h4>
                   <div className="grid grid-cols-3 gap-4">
                     {awards.map((award, index) => (

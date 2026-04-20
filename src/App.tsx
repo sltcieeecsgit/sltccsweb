@@ -8,6 +8,7 @@ import FlagshipEvent from './components/FlagshipEvent';
 import Events from './components/Events';
 import Gallery from './components/Gallery';
 import Membership from './components/Membership';
+import Merchandise from './components/Merchandise';
 import Team from './components/Team';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -78,6 +79,10 @@ function App() {
 
           <ScrollReveal>
             <Membership />
+          </ScrollReveal>
+
+          <ScrollReveal>
+            <Merchandise />
           </ScrollReveal>
 
           <ScrollReveal>

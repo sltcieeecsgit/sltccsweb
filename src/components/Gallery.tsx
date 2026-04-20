@@ -4,27 +4,31 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const facebookEmbeds = [
   {
     id: 1,
-    url: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2FSLTCMedia%2Fposts%2Fpfbid0Ean7susNYfQ2nrNodS4ny2Um72c2nKqUvwNpf5QWywdUdk7wgKqeTQfVogFHmcRcl&show_text=true&width=500",
+    url: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2FSLTCMedia%2Fposts%2Fpfbid02o7DW7JBj7Fo35jN1u1uzS6ZpBWBbEnYkq6WP9gjYUh3mZAj1u2M26c2X6e5pVWZ5l&show_text=false",
   },
   {
     id: 2,
-    url: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2FSLTCMedia%2Fposts%2Fpfbid033MSutkqAtVHP7CpN6NAGX5JJ93niB1m6aATnaVs8drWnjRJFX9owcDZQgNn9ZdnPl&show_text=true&width=500",
+    url: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2FSLTCMedia%2Fposts%2Fpfbid0Ean7susNYfQ2nrNodS4ny2Um72c2nKqUvwNpf5QWywdUdk7wgKqeTQfVogFHmcRcl&show_text=false",
   },
   {
     id: 3,
-    url: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2FSLTCMedia%2Fposts%2Fpfbid027axCULjbTFo2oRFTcquwAj1QNFVmyRnTYqZ8j5nyNySCcbiiEk2hzi53oTTKYJz6l&show_text=true&width=500",
+    url: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2FSLTCMedia%2Fposts%2Fpfbid033MSutkqAtVHP7CpN6NAGX5JJ93niB1m6aATnaVs8drWnjRJFX9owcDZQgNn9ZdnPl&show_text=false",
   },
   {
     id: 4,
-    url: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2FSLTCMedia%2Fposts%2Fpfbid0qu87m9gH3oFLC85mdBzgKgtE4A187wjDLspVabd6wmP2dqaj629FeK11uiSZ7VWol&show_text=true&width=500",
+    url: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2FSLTCMedia%2Fposts%2Fpfbid027axCULjbTFo2oRFTcquwAj1QNFVmyRnTYqZ8j5nyNySCcbiiEk2hzi53oTTKYJz6l&show_text=false",
   },
   {
     id: 5,
-    url: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2FSLTCMedia%2Fposts%2Fpfbid0CzpjZGP8rp4ZUPpoLGdtq4X3iRq9kZFgFchyJ1Lmgt5oxpWFEgozykmERZN3bmyLl&show_text=true&width=500",
+    url: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2FSLTCMedia%2Fposts%2Fpfbid0qu87m9gH3oFLC85mdBzgKgtE4A187wjDLspVabd6wmP2dqaj629FeK11uiSZ7VWol&show_text=false",
   },
   {
     id: 6,
-    url: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2FSLTCMedia%2Fposts%2Fpfbid027axCULjbTFo2oRFTcquwAj1QNFVmyRnTYqZ8j5nyNySCcbiiEk2hzi53oTTKYJz6l&show_text=true&width=500",
+    url: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2FSLTCMedia%2Fposts%2Fpfbid0CzpjZGP8rp4ZUPpoLGdtq4X3iRq9kZFgFchyJ1Lmgt5oxpWFEgozykmERZN3bmyLl&show_text=false",
+  },
+  {
+    id: 7,
+    url: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2FSLTCMedia%2Fposts%2Fpfbid027axCULjbTFo2oRFTcquwAj1QNFVmyRnTYqZ8j5nyNySCcbiiEk2hzi53oTTKYJz6l&show_text=false",
   }
 ];
 
@@ -82,18 +86,21 @@ export default function Gallery() {
             {facebookEmbeds.map((embed) => (
               <div
                 key={embed.id}
-                className="w-[320px] h-[400px] md:w-[450px] md:h-[560px] snap-center bg-white rounded-2xl overflow-hidden shadow-2xl transition-all duration-300 flex-shrink-0 border border-white/10 relative"
+                className="w-[350px] h-[450px] md:w-[450px] md:h-[600px] snap-center bg-white rounded-2xl overflow-hidden shadow-2xl transition-all duration-300 flex-shrink-0 border border-white/10 relative"
               >
-                <div className="w-full h-full">
+                <div className="absolute top-0 left-0 w-[500px] h-[642px] md:h-[666px] transform scale-[0.7] md:scale-[0.9] origin-top-left">
                   <iframe
-                    src={embed.url}
-                    width="100%"
-                    height="1000" // Increased height to allow internal scrolling within the card if needed
-                    style={{ border: 'none' }}
+                    src={`${embed.url}&width=500`}
+                    width="500"
+                    height="100%"
+                    style={{ border: 'none', overflow: 'hidden' }}
+                    scrolling="no"
+                    frameBorder="0"
+                    allowFullScreen={true}
                     loading="lazy"
                     allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
                     title={`Facebook Post ${embed.id}`}
-                    className="w-full"
+                    className="w-full h-full"
                   ></iframe>
                 </div>
 

@@ -14,11 +14,11 @@ const flagshipEvents = [
     description:
       'Codemania is an exciting coding competition organized by IEEE Computer Society SBC of SLTC, where students compete in teams, solve challenging algorithmic problems, enhance programming skills, win prizes, and foster a collaborative, tech focused community.',
     image: codemaniaImg,
-    link: 'https://codemania-v5.vercel.app/',
+    link: 'https://codemania.live',
   },
   {
     id: 2,
-    title: 'CoudSpace',
+    title: 'CloudSpace',
     category: 'Cloud Workshop Series',
     description:
       'CloudSpace is a cloud computing event by IEEE Computer Society SBC of SLTC, where students explore various cloud platforms like AWS, Microsoft Azure, and Google Cloud, gaining hands-on experience, improving skills, and building industry-relevant knowledge.',

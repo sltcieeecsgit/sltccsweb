@@ -3,6 +3,9 @@ import aqcellorLogo from '../assets/img/partners/aqcellor-logo.png';
 import virtusaLogo from '../assets/img/partners/virtusa-logo.png';
 import awsLogo from '../assets/img/partners/aws-user-group.png';
 import mediaSltcLogo from '../assets/img/partners/mediauni-sltc-logo.png';
+import mdLogo from '../assets/img/partners/md-beverages-logo.png';
+import atosLogo from '../assets/img/partners/atos-logo.png';
+import vitalhubLogo from '../assets/img/partners/vitalhub-logo.png';
 
 export default function Partners() {
   const partners = [
@@ -11,6 +14,9 @@ export default function Partners() {
     { name: 'Virtusa', logo: virtusaLogo },
     { name: 'AWS User Group Colombo', logo: awsLogo },
     { name: 'Media SLTC', logo: mediaSltcLogo },
+    { name: 'MD', logo: mdLogo },
+    { name: 'Atos', logo: atosLogo },
+    { name: 'Vitalhub', logo: vitalhubLogo },
   ];
 
   const duplicatedPartners = [...partners, ...partners];
@@ -31,7 +37,7 @@ export default function Partners() {
               {duplicatedPartners.map((partner, index) => (
                 <div
                   key={index}
-                  className="flex-shrink-0 mx-8 transition-all duration-300 transform hover:scale-110"
+                  className="flex-shrink-0 mx-8 transition-all duration-300"
                 >
                   <div className="w-40 h-40 flex items-center justify-center p-6 bg-white/5 rounded-xl backdrop-blur-sm border border-white/5 hover:border-white/10 hover:bg-white/10 transition-colors">
                     <img

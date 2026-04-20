@@ -1,22 +1,34 @@
 import { ArrowRight } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import Skeleton from './Skeleton';
-
 import codemaniasoonImg from '../assets/img/upcoming/codemaniasoon.png';
 import cloudspacesoonImg from '../assets/img/upcoming/cloudspacesoon.png';
+import gitgeniusImg from '../assets/img/upcoming/gitgeniussoon.png';
 
 const liveEvents = [
+  /*
   {
     id: 1,
     title: 'Codemania v6.0',
+    status: 'LIVE NOW',
     description: `Codemania is an exciting coding competition organized by IEEE Computer Society SBC of SLTC, where students compete in teams, solve challenging algorithmic problems, enhance programming skills, win prizes, and foster a collaborative, tech-focused community together annually.
 `,
     image: codemaniasoonImg,
-    link: 'https://codemania-v5.vercel.app/',
+    link: 'https://codemania.live/',
+  },
+  */
+  {
+    id: 3,
+    title: 'GitGenius 26',
+    status: 'UPCOMING',
+    description: `GitGenius, organized by IEEE Computer Society of SLTC, empowers students with version control expertise, collaborative coding practices, and real world software development skills through workshops, challenges, and innovation driven learning experiences.`,
+    image: gitgeniusImg,
+    link: '#',
   },
   {
     id: 2,
     title: 'CloudSpace v2.0',
+    status: 'UPCOMING',
     description:
       `CloudSpace is a cloud computing event organized by IEEE Computer Society SBC of SLTC, where students explore multiple cloud platforms including AWS, Microsoft Azure, Google Cloud, and others, gaining practical experience, enhancing skills, and building industry-relevant knowledge.`,
     image: cloudspacesoonImg,
@@ -75,11 +87,13 @@ export default function LiveEvents() {
                     {/* Radar Dot Container */}
                     <span className="relative flex justify-center items-center w-3 h-3">
                       {/* Animated ping circle behind */}
-                      <span className="absolute inline-flex w-3 h-3 rounded-full bg-goldcs opacity-75 animate-ping"></span>
+                      <span className={`absolute inline-flex w-3 h-3 rounded-full opacity-75 animate-ping ${event.status.startsWith('LIVE') ? 'bg-greencs' : 'bg-goldcs'
+                        }`}></span>
                       {/* Small static dot on top */}
-                      <span className="relative inline-flex w-2 h-2 rounded-full bg-goldcs"></span>
+                      <span className={`relative inline-flex w-2 h-2 rounded-full ${event.status.startsWith('LIVE') ? 'bg-greencs' : 'bg-goldcs'
+                        }`}></span>
                     </span>
-                    UPCOMING
+                    {event.status}
                   </span>
                 </div>
 
