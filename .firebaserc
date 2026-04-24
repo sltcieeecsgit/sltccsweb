@@ -1,6 +1,6 @@
 {
   "projects": {
-    "csweb": "sltcieeecslk"
+    "default": "sltcieeecslk"
   },
   "targets": {},
   "etags": {}
