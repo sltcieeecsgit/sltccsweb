@@ -54,7 +54,7 @@ export default function Navigation() {
               onClick={(e) => scrollToSection(e, '#membership')}
               className="px-6 py-2.5 text-base font-bold bg-gradient-to-r from-goldcs to-goldcsdark text-white rounded-full transition-all duration-300 hover:scale-105"
             >
-              Onboard
+              ONBOARD NOW
             </a>
           </div>
 

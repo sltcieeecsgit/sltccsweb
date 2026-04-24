@@ -9,7 +9,8 @@ import Events from './components/Events';
 import Gallery from './components/Gallery';
 import Membership from './components/Membership';
 import Merchandise from './components/Merchandise';
-import Team from './components/Team';
+import ExCommittee from './components/ExCommittee';
+import SubCommittee from './components/SubCommittee';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Loading from './components/Loading';
@@ -86,7 +87,11 @@ function App() {
           </ScrollReveal>
 
           <ScrollReveal>
-            <Team />
+            <ExCommittee />
+          </ScrollReveal>
+
+          <ScrollReveal>
+            <SubCommittee />
           </ScrollReveal>
 
           <ScrollReveal>

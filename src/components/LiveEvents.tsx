@@ -1,7 +1,7 @@
 import { ArrowRight } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import Skeleton from './Skeleton';
-import codemaniasoonImg from '../assets/img/upcoming/codemaniasoon.png';
+// import codemaniasoonImg from '../assets/img/upcoming/codemaniasoon.png';
 import cloudspacesoonImg from '../assets/img/upcoming/cloudspacesoon.png';
 import gitgeniusImg from '../assets/img/upcoming/gitgeniussoon.png';
 
