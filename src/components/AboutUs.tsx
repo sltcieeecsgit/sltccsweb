@@ -2,8 +2,8 @@ import { Award } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import aboutUsImg from '../assets/img/aboutus/AboutUs.png';
 import award2021 from '../assets/img/aboutus/awards/best_student_branch_chapter_2021.png';
-import award2022 from '../assets/img/aboutus/awards/darrel_chong_student _activity_award_2022.png';
-import award2023 from '../assets/img/aboutus/awards/darrel_chong_student _activity_award_2023.png';
+import award2022 from '../assets/img/aboutus/awards/darrel_chong_student_activity_award_2022.png';
+import award2023 from '../assets/img/aboutus/awards/darrel_chong_student_activity_award_2023.png';
 import Skeleton from './Skeleton';
 
 export default function AboutUs() {
